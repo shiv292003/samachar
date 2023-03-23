@@ -1,0 +1,50 @@
+.space {
+    margin-bottom: 1%;
+  }
+  
+  .shine {
+    display: inline;
+    text-align: center;
+    font-weight: bold;
+    margin: 0.3rem;
+    /* margin: 5px; */
+    padding: 0.3rem;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: rgb(68, 88, 190);
+    transition: 0.5s;
+  }
+  
+  .shine:hover {
+    background-color: #e9f2fa;
+    color: #99bad8;
+    cursor: pointer;
+  }
+  .search {
+    width: 95%;
+    margin: 1.1rem 0 1.6rem;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    padding: 0.51rem 1.5rem;
+    border-radius: 3rem;
+    background: #5c9dde;
+  
+    box-shadow: 5px 8px 8px #a1cce6;
+  }
+  
+  .search_input {
+    flex: 1;
+    border: none;
+    font-size: 1.5rem;
+    font-family: var(--font-raleway);
+    font-weight: 500;
+    padding-right: 1rem;
+  
+    outline: none;
+    color: white;
+    background: #6293c4;
+  }
+  
