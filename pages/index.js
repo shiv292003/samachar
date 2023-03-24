@@ -9,7 +9,7 @@ import loadingImg from "../Components/giphy1.gif";
 import LoadingComp from "../Components/Loading";
 
 // News API credentials
-const API_KEY = process.env.API_NEWS;
+const API_KEY = "1606a73c988e4b63b2f84de57dab8ef2";
 const PageSz = 9;
 const API_URL = `https://newsapi.org/v2/top-headlines?country=in&apiKey=${API_KEY}`;
 
