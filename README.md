@@ -1,3 +1,15 @@
+**important**
+if it is not running on your local host properly **showing axios runtime error**
+go to index.js line no 12 i.e API_KEY 
+remove it 
+overwrite the API_KEY part by 
+const API_KEY = "1606a73c988e4b63b2f84de57dab8ef2";
+
+Now everything will work
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
